@@ -1,22 +1,32 @@
 {
-    "name": "mean-mud-03",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server/app.js"
-    },
-    "author": "Logan Kelly",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.17.2",
-        "express": "^4.15.3",
-        "grunt": "^1.0.1",
-        "grunt-contrib-copy": "^1.0.0",
-        "grunt-contrib-uglify": "^3.0.1",
-        "grunt-contrib-watch": "^1.0.0",
-        "path": "^0.12.7",
-        "sequelize": "^4.2.0"
-    }
+  "name": "mean-mud-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Logan Kelly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "mysql2": "^1.3.5",
+    "path": "^0.12.7",
+    "sequelize": "^4.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnargnor/mean-mud-es6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gnargnor/mean-mud-es6/issues"
+  },
+  "homepage": "https://github.com/gnargnor/mean-mud-es6#readme",
+  "description": ""
 }
