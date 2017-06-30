@@ -1,9 +1,10 @@
+"use strict";
 const mysql = require('mysql2');
 const connection = mysql.createConnection({
-    host: PROCESS.ENV.MYSQL_HOST,
-    user: PROCESS.ENV.MYSQL_USERNAME,
-    password: PROCESS.ENV.MYSQL_PASSWORD,
-    database: PROCESS.ENV.MYSQL_DB
+    host: process.env.MYSQL_HOST,
+    user: process.env.MYSQL_USERNAME,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DB
 });
 
 connection.connect(function(err) {

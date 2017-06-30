@@ -1,7 +1,11 @@
+"use strict";
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const path = require('path');
+const dotenv = require('dotenv').config();
+
+const mysql = require('./modules/db');
 
 const port = process.env.PORT || 5000;
 
