@@ -9,6 +9,10 @@ const mysql = require('./modules/db');
 
 const port = process.env.PORT || 5000;
 
+app.use('/', function(req, res) {
+    res.sendFile(path.join(__dirname, './public/views/index.html'));
+});
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

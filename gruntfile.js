@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     '**/*.html',
                     '**/**/*.html'
                 ],
-                dest: 'server/public/'
+                dest: 'server/public/views/'
             },
             css: {
                 expand: true,
